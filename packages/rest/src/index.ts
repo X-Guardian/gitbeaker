@@ -4,6 +4,8 @@ import * as CORE from '@gitbeaker/core';
 import { presetResourceArguments } from '@gitbeaker/requester-utils';
 import { requesterFn } from './Requester';
 
+const unused = 1;
+
 // Re-export all core types and utility errors
 export type * from '@gitbeaker/core';
 export {
